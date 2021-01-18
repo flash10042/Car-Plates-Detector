@@ -1,7 +1,6 @@
 import cv2
 import argparse
 import numpy as np
-import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 from tensorflow.image import non_max_suppression
 from utils import config
