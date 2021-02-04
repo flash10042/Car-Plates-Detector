@@ -6,8 +6,6 @@ Implementation of car plates detector with opencv and tensorflow.
 
 This plate detector uses selective search for finding region proposals and MobileNetV3Small for binary classification is it a car plate.
 
-After 5 training epochs model accuracy on validation set was 98.5%.
-
 # Run
 
 To use this detector with your custom image run detect.py script as follows:
